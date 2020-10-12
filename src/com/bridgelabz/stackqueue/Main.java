@@ -11,8 +11,14 @@ public class Main {
 		myQueue.enqueue(30);
 		myQueue.enqueue(70);
 
-		// To print stack
-		myQueue.printStack();
+		// To print queue
+		myQueue.printQueue();
+
+		System.out.println("Deleted element " + myQueue.dequeue());
+
+		// To print queue after deletion
+		myQueue.printQueue();
+
 	}
 
 	public void stackOperations() {

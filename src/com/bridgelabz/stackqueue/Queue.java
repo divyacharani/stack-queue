@@ -13,9 +13,15 @@ public class Queue<K> {
 		linkedList.append(key);
 	}
 
-	// prints element in stack
-	public void printStack() {
+	// prints element in queue
+	public void printQueue() {
 		linkedList.printLinkedList();
+	}
+
+	// To do delete operation
+	public K dequeue() {
+		K element = linkedList.pop();
+		return element;
 	}
 
 }
