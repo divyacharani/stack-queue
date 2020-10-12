@@ -162,6 +162,11 @@ public class LinkedList<K> {
 			tempNode = tempNode.getNext();
 		}
 	}
+	
+	//Method to get head
+	public Node<K> getHead() {
+		return head;
+	}
 	// Method to print linked list
 	public void printLinkedList() {
 		System.out.println("Linked List");
@@ -174,5 +179,7 @@ public class LinkedList<K> {
 			node = node.getNext();
 		}
 		System.out.print(node.getKey());
+		System.out.println();
 	}
+
 }

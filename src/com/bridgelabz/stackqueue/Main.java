@@ -13,6 +13,13 @@ public class Main {
 		// To print stack
 		myStack.printStack();
 
+		System.out.println("The top element is " + myStack.peek());
+
+		myStack.pop(); // Pop from the stack
+
+		System.out.println("Stack after pop operation");
+		myStack.printStack();
+
 	}
 
 }

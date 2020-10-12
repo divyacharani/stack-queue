@@ -16,4 +16,15 @@ public class Stack<K> {
 	public void printStack() {
 		linkedList.printLinkedList();
 	}
+
+	// Method to peak stack
+	public K peek() {
+		return linkedList.getHead().getKey();
+	}
+
+	// Method to pop
+	public K pop() {
+		K element = linkedList.pop();
+		return element;
+	}
 }
